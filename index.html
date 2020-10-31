@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    
+  </head>
+  <body>
+    <style>
+        h1{
+        background-color:yellow;
+        margin:25px,25px,25px,25px;
+        padding:20px;
+        color:red;
+        font-family:italk;
+        
+        }
+        h3{
+        border:1px solid red;
+        color:green;
+        }
+        
+        form{
+        border:2px solid green;
+        color:blue;
+        }
+        h6{
+        background-color: yellow;
+                font-size: 22px;
+        }
+        h8{
+            background-color: rgb(30, 255, 0);
+                font-size: 22px;
+        }
+        </style>
+        <head>
+         <h6><marquee border="3" bgcolor="red">WELCOME TO KANDEKAR CLASSES </marquee></h6>
+         <h8>CONTACT DETAILS: <br>Mr.Shital Kandekar (M.A.Bed)(+91 8998985855)<br>
+                                  Miss.Swapnali Kandekar(Bsc.physics)(+91 8689563465)
+         </h8>
+        <h1>KANDEKAR CLASSES REGISTRATION FORM</h1>
+        <h3>Fillup the Entery Registration Form </h3>
+        </head>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+          </div>
+          <div class="panel-body">
+            <form action="index.php" method="get">
+              <div class="form-group"><br><br>
+                <label for="studentName">ENTER STUDENT NAME</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="studentName"
+                  name="firstName"
+                  required placeholder=RequiredFullName
+                /><br><br>
+              </div>
+              <div class="form-group">
+                <label for="lastName">ENTER FATHER NAME</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                  required
+                /><br><br>
+              </div>
+              <div class="form-group">
+                <label for="schoolName">SCHOOL NAME</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="schoolName"
+                  name="schoolName"
+                  required
+                /><br><br>
+              </div>
+              <label for="BOARD">EXAM BOARD</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="BOARD"
+                  name="BOARD"
+                  required
+                /><br><br>
+              <div class="form-group">
+                <label for="CLASS">CLASS</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="CLASS"
+                  name="CLASS"
+                  required
+                /><br><br>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  ><br><br>
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  ><br><br>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder=xyz@xyz.com
+                /><br><br>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  required
+                  placeholder=Enterpassword
+                /><br><br>
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                  required
+                  placeholder="+91 1234567890"
+                  pattern="[0-9]{10}"
+            
+                />
+              </div>
+              <small>Format:+91 1234567890</small><br><br>
+
+              <input type="submit" class="btn btn-primary" /><br><br>
+            </form>
+          </div><br><br>
+            <small>&copy; suyog shinde</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  </body>
+</html>
